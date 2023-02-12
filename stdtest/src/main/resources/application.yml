@@ -1,0 +1,16 @@
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/dingxu
+#    username: root
+#    password: 111111
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML5
